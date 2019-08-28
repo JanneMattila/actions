@@ -10,9 +10,9 @@ Write-Host "Installing Az module (this might take few minutes)"
 Install-Module -Name Az -Force
 
 Write-Host "Logging into Azure"
-Login-AzAccount -Credential $credentials -ServicePrincipal -TenantId $json.tenantId
+Login-AzAccount -Credential $credentials -ServicePrincipal -TenantId $json.tenantId | Out-Null
 
 Write-Host "Selecting correct subscription"
 Select-AzSubscription -SubscriptionId $json.subscriptionId | Out-Null
 
-Write-Host "Successfully logged in!"
+return "Successfully logged in!"
