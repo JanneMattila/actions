@@ -13,6 +13,6 @@ Write-Host "Logging into Azure"
 Login-AzAccount -Credential $credentials -ServicePrincipal -TenantId $json.tenantId
 
 Write-Host "Selecting correct subscription"
-Select-AzSubscription -SubscriptionId $json.subscriptionId
+Select-AzSubscription -SubscriptionId $json.subscriptionId | Out-Null
 
 Write-Host "Successfully logged in!"
