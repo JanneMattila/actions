@@ -1,2 +1,3 @@
-# actions
-My GitHub actions for Azure PowerShell and ARM template deployment
+# Azure PowerShell action
+
+GitHub actions for Azure PowerShell and ARM template deployment
