@@ -1,8 +1,4 @@
-# GitHub Actions
-
-This repo is collection of different GitHub Actions.
-
-## Azure PowerShell action
+# Azure PowerShell action
 
 You can use this GitHub action for executing Azure PowerShell in your own GitHub workflows.
 Similarly as [Azure PowerShell task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/azure-powershell?view=azure-devops) in
